@@ -1,0 +1,46 @@
+.container {
+  text-align: center;
+  margin: auto;
+  max-width: 1280px;
+  background-image: url(./assets/img/background.jpg);
+  height: 1300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  position: relative;
+}
+.container h1 {
+  margin-top: 0;
+  color: pink;
+}
+.model {
+  height: 300px;
+  width: 35%;
+}
+.glasseList {
+  margin-top: 30rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.glasseItem {
+  width: 20%;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.glasseItem img {
+  width: 50%;
+}
+
+.glasse {
+  position: absolute;
+  left: 40.3%;
+  top: 10.5%;
+}
+.glasse img {
+  width: 250px;
+  height: 60px;
+}
